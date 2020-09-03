@@ -1,4 +1,6 @@
-﻿var connection = new signalR.HubConnectionBuilder().withUrl("/HubM").build();
+﻿ var connection = new signalR.HubConnectionBuilder().withUrl("/HubM").build();
+ 
+
 connection.on("ReceiveMusic", function () {
     //var  = fromUser + ": " + message;
     //var li = docummsgent.createElement("li");
@@ -9,7 +11,7 @@ connection.on("ReceiveMusic", function () {
     audioElement.crossOrigin = "anonymous"; // CORS access restriction. Worth a shot but no dice
     audioElement.type = "audio/mpeg"; // just in case? idk
   //  audioElement.src = "http://novazz.ice.infomaniak.ch/novazz-128.mp3"; // "https://streaming.kansaspublicradio.org:8001/mp3/First_0713886.mp3";
-    audioElement.src = "https://ia801401.us.archive.org/4/items/jjj2020-08-30/01.%20K%20Line-.mp3";
+    audioElement.src = "https://ia800707.us.archive.org/8/items/alice_in_wonderland_librivox/wonderland_ch_01_64kb.mp3";
 
     function startPlayback() {
         // .play() is a Promise

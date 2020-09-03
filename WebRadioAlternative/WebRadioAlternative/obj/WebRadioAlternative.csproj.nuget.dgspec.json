@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.net\\source\\repos\\WebRadioAlternative\\WebRadioAlternative\\WebRadioAlternative.csproj": {}
+    "D:\\.net\\source\\repos\\RadioWebAlternative\\WebRadioAlternative\\WebRadioAlternative\\WebRadioAlternative.csproj": {}
   },
   "projects": {
-    "D:\\.net\\source\\repos\\WebRadioAlternative\\WebRadioAlternative\\WebRadioAlternative.csproj": {
+    "D:\\.net\\source\\repos\\RadioWebAlternative\\WebRadioAlternative\\WebRadioAlternative\\WebRadioAlternative.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.net\\source\\repos\\WebRadioAlternative\\WebRadioAlternative\\WebRadioAlternative.csproj",
+        "projectUniqueName": "D:\\.net\\source\\repos\\RadioWebAlternative\\WebRadioAlternative\\WebRadioAlternative\\WebRadioAlternative.csproj",
         "projectName": "WebRadioAlternative",
-        "projectPath": "D:\\.net\\source\\repos\\WebRadioAlternative\\WebRadioAlternative\\WebRadioAlternative.csproj",
+        "projectPath": "D:\\.net\\source\\repos\\RadioWebAlternative\\WebRadioAlternative\\WebRadioAlternative\\WebRadioAlternative.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\.net\\source\\repos\\WebRadioAlternative\\WebRadioAlternative\\obj\\",
+        "outputPath": "D:\\.net\\source\\repos\\RadioWebAlternative\\WebRadioAlternative\\WebRadioAlternative\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -44,6 +44,10 @@
             "Microsoft.AspNetCore.Cors": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Core": {
+              "target": "Package",
+              "version": "[1.1.0, )"
             }
           },
           "imports": [
