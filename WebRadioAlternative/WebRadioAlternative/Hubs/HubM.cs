@@ -13,7 +13,7 @@ namespace WebRadioAlternative.Hubs
          //   var context = GlobalHost.ConnectionManager.GetHubContext<MyHub>();
          
             await Clients.All.SendAsync("ReceiveMusic");
-           // await Clients.Caller.SendAsync("ReceiveMusic");
+             // await Clients.Caller.SendAsync("ReceiveMusic");
 
         }
     }
