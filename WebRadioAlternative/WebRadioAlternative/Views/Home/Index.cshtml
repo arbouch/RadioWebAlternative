@@ -1,0 +1,43 @@
+﻿<div class="container" style="padding-top:80px;">
+    <div class="row">
+        <div class="col-md-6">
+            <span>
+                Enter Your Name:
+            </span>
+            <br />
+            <div id="container">
+
+                <br />
+                <input type="text" id="txtUser" />
+
+                <br />
+                <span>
+                    Enter Your Message:
+                </span>
+                <br />
+                <textarea rows=10 cols=50 id="TxtMessage"></textarea>
+                <br />
+                @*<div class="sm2-bar-ui flat textured">
+                        <audio id="music" controls>
+                            <source src="~/music/tartini_violin_sonata_in_g_minor_devil_s_trill_sonata_-5638664037103208966.mp3" type="audio/ogg">
+                        </audio>
+                    </div>*@
+
+                <audio id="music"></audio>
+                <button id="play">Play!</button>
+                <br />
+
+                <button type="submit" id="btnSend" class="btn btn-info">Send Message</button>
+
+
+            </div>
+            <div class="col-md-6">
+                <ul id="list" class="alert alert-info">
+                </ul>
+            </div>
+        </div>
+    </div>
+ 
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/site.js"></script>
